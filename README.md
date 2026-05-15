@@ -111,8 +111,6 @@ The API is organized by resource-based routes.
 ## Database
 - **Engine**: MySQL
 - **Pattern**: Repository Pattern used to decouple domain from persistence.
-- **Migrations**: Not detectable from current repository.
-- **Transactions**: Not detectable from current repository.
 
 ## Testing
 The project uses **Jest** for testing, following a pyramid strategy:
