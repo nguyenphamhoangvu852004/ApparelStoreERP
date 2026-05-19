@@ -1,4 +1,4 @@
-import { Email } from '../../shared/domain/value-objects/Email';
+import { Email } from '../../src/common/value-objects/Email';
 
 describe('Email Value Object', () => {
   describe('Email.create()', () => {

@@ -1,7 +1,7 @@
-import { Barcode } from '../../../../shared/domain/value-objects/Barcode';
-import { Money } from '../../../../shared/domain/value-objects/Money';
-import { SKU } from '../../../../shared/domain/value-objects/SKU';
-import { SalesChannel } from '../../../../shared/enum/salesChannel.enum';
+import { Barcode } from '../../common/value-objects/Barcode';
+import { Money } from '../../common/value-objects/Money';
+import { SKU } from '../../common/value-objects/SKU';
+import { SalesChannel } from '../../common/enum/salesChannel.enum';
 
 // ====================== PRODUCT VARIANT ======================
 export interface ProductVariantProps {

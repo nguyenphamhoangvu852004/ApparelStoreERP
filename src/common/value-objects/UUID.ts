@@ -1,5 +1,5 @@
 type UUIDProps = {
-  value?: string;
+  value: string;
 };
 export class UUID {
   private readonly value: string;
@@ -8,10 +8,10 @@ export class UUID {
     this.value = value.trim();
   }
 
-  public static create(props: UUIDProps): UUID {
+  public static create(props?: UUIDProps): UUID {
     const uuidRegex =
       /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
-    if (props.value === undefined) {
+    if (props?.value === undefined) {
       return UUID.generate();
     }
 

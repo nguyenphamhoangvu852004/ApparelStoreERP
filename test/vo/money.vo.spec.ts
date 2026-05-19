@@ -1,4 +1,4 @@
-import { Money } from '../../shared/domain/value-objects/Money';
+import { Money } from '../../src/common/value-objects/Money';
 
 describe('Money Value Object', () => {
   describe('Money.create()', () => {

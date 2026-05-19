@@ -1,8 +1,8 @@
-import { Gender } from '../../../../shared/domain/value-objects/Brand';
-import { Money } from '../../../../shared/domain/value-objects/Money';
-import { Season } from '../../../../shared/domain/value-objects/Season';
-import { Style } from '../../../../shared/domain/value-objects/Style';
-import { UUID } from '../../../../shared/domain/value-objects/UUID';
+import { Gender } from '../../common/value-objects/Brand';
+import { Money } from '../../common/value-objects/Money';
+import { Season } from '../../common/value-objects/Season';
+import { Style } from '../../common/value-objects/Style';
+import { UUID } from '../../common/value-objects/UUID';
 import { Brand } from './brand.entity';
 import { Category } from './category.entity';
 import { Collection } from './collection.entity';

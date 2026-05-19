@@ -1,4 +1,4 @@
-import { MediaType } from '../../../../shared/enum/mediaType.enum';
+import { MediaType } from '../../common/enum/mediaType.enum';
 
 export interface ProductMediaProps {
   url: string;

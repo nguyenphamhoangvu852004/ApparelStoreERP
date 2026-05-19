@@ -1,6 +1,6 @@
-import { Email } from '../../shared/domain/value-objects/Email';
-import { UUID } from '../../shared/domain/value-objects/UUID';
-import { User } from '../../modules/user/domain/entities/user.entity';
+import { User } from '../../src/domain/entities/user.entity';
+import { Email } from '../../src/common/value-objects/Email';
+import { UUID } from '../../src/common/value-objects/UUID';
 
 describe('User entity', () => {
   it('humanProfie should be null value', () => {

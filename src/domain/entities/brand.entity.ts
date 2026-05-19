@@ -1,4 +1,4 @@
-import { UUID } from '../../../../shared/domain/value-objects/UUID';
+import { UUID } from '../../common/value-objects/UUID';
 
 type BrandProps = {
   id: UUID;
